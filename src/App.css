@@ -1,45 +1,50 @@
 .container {
-  display:flex;
+  display: flex;
   justify-content: center;
-  padding:10px;
+  padding: 10px;
 }
 
 .columnLeft {
-  width:288px;
+  width: 288px;
   text-align: center;
-  padding:10px;
+  padding: 10px;
 }
 
 .columnRight {
-  width:394px;
+  width: 394px;
   text-align: center;
-  padding:10px;
+  padding: 10px;
 }
 
-.pokemonListLeft{
+.pokemonListLeft {
   background-image: url(./assets/grass.png)
 }
 
-.pokeDetails{
+.pokeDetails {
   text-align: left;
-  margin-left:5px;
+  margin-left: 5px;
+  font-family: 'Share Tech Mono', monospace;
 }
 
-.pokePic{
-  width:96px;
+.pokePic {
+  width: 96px;
 }
 
-.pokeFrame{
-  width:334px;
-  height:224px;
-  display:flex;
+.pokeFrame {
+  width: 334px;
+  height: 224px;
+  display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  border:10px;
+  border: 10px;
   border-radius: 2px 2px 2px 2px;
   border-color: black;
   background-image: url(./assets/frame.png);
-  margin:10px;
+  margin: 10px;
   padding-left: 50px;
+}
+
+h3 {
+  font-family: 'Arvo', serif;
 }

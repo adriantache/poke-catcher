@@ -11,7 +11,7 @@ const DISPLAY_DELAY = 500
 // const DISPLAY_DELAY = API_DELAY/99
 const NUM_POKEMONS = 151
 
-class App extends Component {
+export default class App extends Component {
   constructor(props) {
     super(props)
 
@@ -35,7 +35,6 @@ class App extends Component {
 
     //start pokemon display loop
     this.interval = setInterval(this.displayPokemons, DISPLAY_DELAY)
-    // setTimeout(this.displayPokemons, 1000)
   }
 
   componentWillUnmount() {
@@ -56,7 +55,6 @@ class App extends Component {
         if (!name || !type || !sprite) this.fetchPokemons(i, i)
         else {
           //add it to the map using id as key
-          // this.pokemons.set(id, { name, type, sprite })
           this.pokemons.set(id, new Pokemon(name, type, sprite))
           //preload its thumbnail to ensure it's cached
           this.preloadImage(sprite)
@@ -230,5 +228,3 @@ class App extends Component {
     )
   }
 }
-
-export default App;

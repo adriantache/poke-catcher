@@ -1,6 +1,5 @@
 export default class Pokemon {
-    constructor(name, type, sprite){
-        console.log(name, type, sprite)
+    constructor(name, type, sprite) {
         this.name = name
         this.type = type
         this.sprite = sprite
