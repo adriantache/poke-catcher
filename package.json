@@ -22,5 +22,5 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "homepage" : "http://adriantache.github.io/poke-catcher"
+  "homepage" : "https://adriantache.github.io/poke-catcher"
 }

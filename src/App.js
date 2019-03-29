@@ -11,7 +11,7 @@ const DISPLAY_DELAY = 500
 // const DISPLAY_DELAY = API_DELAY/99
 const NUM_POKEMONS = 151
 
-export default class App extends Component {
+class App extends Component {
   constructor(props) {
     super(props)
 
@@ -228,3 +228,5 @@ export default class App extends Component {
     )
   }
 }
+
+export default App
