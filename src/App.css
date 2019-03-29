@@ -48,3 +48,19 @@
 h3 {
   font-family: 'Arvo', serif;
 }
+
+@media(max-width:800px), (orientation:portrait) {
+  .pokeFrame {
+    width: 288px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+  }
+  .columnRight {
+    width: 288px;
+    text-align: center;
+    padding: 10px;
+  }
+}
