@@ -61,14 +61,13 @@ h3 {
     background-image: none;
     background-color: fuchsia;
   }
-  .pokemonListRight {
-    background-color: lightgreen;
-  }
   .pokeFrame {
     width: 288px;
     height: 96px;
     background-image: none;
     margin: 0;
     padding-left: 0;
+    background-color: lightgreen;
+    margin-bottom:5px;
   }
 }
