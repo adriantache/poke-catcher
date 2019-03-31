@@ -37,9 +37,6 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  border: 10px;
-  border-radius: 2px 2px 2px 2px;
-  border-color: black;
   background-image: url(./assets/frame.png);
   margin: 10px;
   padding-left: 50px;
@@ -49,18 +46,24 @@ h3 {
   font-family: 'Arvo', serif;
 }
 
-@media(max-width:800px), (orientation:portrait) {
-  .pokeFrame {
-    width: 288px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    margin: 10px;
+@media(max-width:750px) and (orientation:portrait) {
+  .container {
+    padding: 0;
+  }
+  .columnLeft {
+    padding: 0;
   }
   .columnRight {
     width: 288px;
-    text-align: center;
-    padding: 10px;
+  }
+  .pokemonListLeft {
+    background-image: none
+  }
+  .pokeFrame {
+    width: 288px;
+    height: 96px;
+    background-image: none;
+    margin: 0;
+    padding-left: 0;
   }
 }
