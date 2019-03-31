@@ -1,5 +1,5 @@
 {
-  "main.css": "/poke-catcher/static/css/main.04cc0b76.chunk.css",
+  "main.css": "/poke-catcher/static/css/main.d9783daa.chunk.css",
   "main.js": "/poke-catcher/static/js/main.fc7de2dc.chunk.js",
   "main.js.map": "/poke-catcher/static/js/main.fc7de2dc.chunk.js.map",
   "runtime~main.js": "/poke-catcher/static/js/runtime~main.11ddfb87.js",
@@ -7,8 +7,8 @@
   "static/js/2.5a03c8e7.chunk.js": "/poke-catcher/static/js/2.5a03c8e7.chunk.js",
   "static/js/2.5a03c8e7.chunk.js.map": "/poke-catcher/static/js/2.5a03c8e7.chunk.js.map",
   "index.html": "/poke-catcher/index.html",
-  "precache-manifest.d8677ff8febc57026454f534985ce9fc.js": "/poke-catcher/precache-manifest.d8677ff8febc57026454f534985ce9fc.js",
+  "precache-manifest.3735c4e3216966133c2ca461b0b37862.js": "/poke-catcher/precache-manifest.3735c4e3216966133c2ca461b0b37862.js",
   "service-worker.js": "/poke-catcher/service-worker.js",
-  "static/css/main.04cc0b76.chunk.css.map": "/poke-catcher/static/css/main.04cc0b76.chunk.css.map",
+  "static/css/main.d9783daa.chunk.css.map": "/poke-catcher/static/css/main.d9783daa.chunk.css.map",
   "static/media/catchall.png": "/poke-catcher/static/media/catchall.5ed4e078.png"
 }

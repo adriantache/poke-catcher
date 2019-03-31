@@ -55,9 +55,14 @@ h3 {
   }
   .columnRight {
     width: 288px;
+    padding: 0;
   }
   .pokemonListLeft {
-    background-image: none
+    background-image: none;
+    background-color: fuchsia;
+  }
+  .pokemonListRight {
+    background-color: lightgreen;
   }
   .pokeFrame {
     width: 288px;
