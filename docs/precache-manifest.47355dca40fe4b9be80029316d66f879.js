@@ -1,10 +1,10 @@
 self.__precacheManifest = [
   {
-    "revision": "083f60a0f5db5b2354ad",
-    "url": "/poke-catcher/static/css/main.bd4669c2.chunk.css"
+    "revision": "572ea8139bd8c291a89b",
+    "url": "/poke-catcher/static/css/main.4e753357.chunk.css"
   },
   {
-    "revision": "083f60a0f5db5b2354ad",
+    "revision": "572ea8139bd8c291a89b",
     "url": "/poke-catcher/static/js/main.fc7de2dc.chunk.js"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/poke-catcher/static/media/catchall.5ed4e078.png"
   },
   {
-    "revision": "4370bb1dd8c7e33c9bd1c50166c33c86",
+    "revision": "870f417a2f75f13b4b6a95152e3c7d94",
     "url": "/poke-catcher/index.html"
   }
 ];

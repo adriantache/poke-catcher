@@ -24,6 +24,8 @@
   text-align: left;
   margin-left: 5px;
   font-family: 'Share Tech Mono', monospace;
+  text-shadow: 2px 2px #5f7000;
+  color:#343c00;
 }
 
 .pokePic {
@@ -37,7 +39,7 @@
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-image: url(./assets/frame.png);
+  background-image: url(./assets/frame2.png);
   margin: 10px;
   padding-left: 50px;
 }
@@ -61,6 +63,9 @@ h3 {
     background-image: none;
     background-color: fuchsia;
   }
+  .pokeDetails {
+    text-shadow: none;
+  }
   .pokeFrame {
     width: 288px;
     height: 96px;
@@ -68,6 +73,6 @@ h3 {
     margin: 0;
     padding-left: 0;
     background-color: lightgreen;
-    margin-bottom:5px;
+    margin-bottom: 5px;
   }
 }
